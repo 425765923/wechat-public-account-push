@@ -399,7 +399,7 @@ export const getConstellationFortune = async (date, dateType) => {
         res.push({
           name: toLowerLine(item.key),
           value: `${dateType}${item.name}: ${value}`,
-          color: getColor(),
+          color: '#abdcff',
         })
       })
     } else {
