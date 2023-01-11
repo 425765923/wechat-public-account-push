@@ -399,7 +399,7 @@ export const getConstellationFortune = async (date, dateType) => {
         res.push({
           name: toLowerLine(item.key),
           value: `${dateType}${item.name}: ${value}`,
-          color: '#abdcff',
+          color: '#9cecfb',
         })
       })
     } else {
@@ -775,8 +775,8 @@ export const getAggregatedData = async () => {
       { name: toLowerLine('province'), value: user.province || config.PROVINCE, color: getColor() },
       { name: toLowerLine('city'), value: user.city || config.CITY, color: getColor() },
       { name: toLowerLine('birthdayMessage'), value: birthdayMessage, color: getColor() },
-      { name: toLowerLine('noteEn'), value: noteEn, color: getColor() },
-      { name: toLowerLine('noteCh'), value: noteCh, color: getColor() },
+      { name: toLowerLine('noteEn'), value: noteEn, color: '#9cecfb' },
+      { name: toLowerLine('noteCh'), value: noteCh, color: '#9cecfb' },
       { name: toLowerLine('holidaytts'), value: holidaytts, color: getColor() },
       { name: toLowerLine('oneTalk'), value: oneTalk, color: getColor() },
       { name: toLowerLine('talkFrom'), value: talkFrom, color: getColor() },
