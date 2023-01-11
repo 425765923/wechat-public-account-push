@@ -35,7 +35,7 @@ export const getColor = () => {
     return undefined
   }
   // return `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, '0')}`
-  return '#a6559d'
+  return '#f0c6e8'
 }
 
 /**
